@@ -53,7 +53,7 @@ li {
     font-size: 18px;
 }
 
-button {
+.bot-inside button {
     background-color: #3882f6;
     border-radius: 4px;
     border: none;
@@ -149,7 +149,8 @@ button {
     flex-direction: column;
     background-color: #e5e7eb;
     justify-content: center;
-    align-items: center;
+    padding-left: 350px;
+    padding-right: 350px;
 }
 
 .quote {
@@ -161,6 +162,67 @@ button {
 .speaker {
     align-self: flex-end;
     font-weight: bold;
+}
+
+
+.fourth {
+    padding-top: 50px;
+    height: 200px;
+}
+
+
+.inside-fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 300px;
+    height: 150px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.next-fourth button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 125px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.fourth-text {
+    font-weight: bold;
+
+}
+
+.subtext {
+    color: #f9FAF8;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    
+}
+
+.footer-text {
+    color: white;
 
 
 }
