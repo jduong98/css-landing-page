@@ -24,6 +24,8 @@ body {
 
 }
 
+/* First Section */
+
 .header {
     
     background-color: #1F2937;
@@ -127,6 +129,9 @@ li {
     text-align: center;
 }
 
+
+/* Second Section */
+
 .second {
     align-items: center;
     flex-direction: column;
@@ -143,6 +148,9 @@ li {
 
 
 }
+
+
+/* Third Section */
 
 .third {
     display: flex;
@@ -164,6 +172,7 @@ li {
     font-weight: bold;
 }
 
+/* Fourth Section */
 
 .fourth {
     padding-top: 50px;
